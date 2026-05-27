@@ -10,7 +10,7 @@
 
 Наша команда:
 
-![Alt-team](images/team.png)
+![Alt-team](images/team.jpg)
 
 ---
 
