@@ -1,8 +1,7 @@
 # Lucky Phantom
 
-<p align="center">
-  <img src="logo.png" width="420">
-</p>
+![Alt-logo](images/logo.png)
+
 
 ## Про команду
 
@@ -11,9 +10,7 @@
 
 Наша команда:
 
-<p align="center">
-  <img src="team.jpg" width="750">
-</p>
+![Alt-team](images/team.png)
 
 ---
 
