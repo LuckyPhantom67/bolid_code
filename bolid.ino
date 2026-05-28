@@ -30,8 +30,8 @@ int lastError = 0;
 
 
 // PID коефіцієнти
-const float Kp = 0.12; 
-const float Kd = 0.86; 
+const float Kp = 0.11; 
+const float Kd = 0.66; 
 
 // Базова швидкість
 const int baseSpeed = 240; 
@@ -72,7 +72,7 @@ unsigned long calibrationStartTime = 0;
 const unsigned long CALIBRATION_DURATION = 8000;
 
 // Тривалість заїзду
-const unsigned long RUN_DURATION = 20000;
+const unsigned long RUN_DURATION = 35000;
 
 // Час старту руху
 unsigned long runStartTime = 0;
@@ -330,11 +330,12 @@ void followLine() {
 
 
   // Плавний розгін на прямих ділянках
-  if (abs(sensorError) < 400) {
+  if (abs(sensorError) < 400
+  ) {
 
     // Поступове збільшення швидкості
     if (Accel_Speed < maxSpeed)
-      Accel_Speed += 4;
+      Accel_Speed += 5;
 
   } else {
 
